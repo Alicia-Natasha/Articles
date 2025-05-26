@@ -1,4 +1,4 @@
-#!/home/alicia/Phase3/Projects/Articles/env/bin/python
+#!/home/alicia/Phase3/Projects/Articles/Articles/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
