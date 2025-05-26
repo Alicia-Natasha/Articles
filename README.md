@@ -47,14 +47,14 @@ Edit
 git clone <your-repo-url>
 cd Articles
 
-###    2. Create and activate a virtual environment (optional but recommended)
+2. Create and activate a virtual environment (optional but recommended)
 bash
 Copy
 Edit
 python3 -m venv env
 source env/bin/activate
 
-### 3. Install dependencies
+3. Install dependencies
 bash
 Copy
 Edit
@@ -66,7 +66,7 @@ Copy
 Edit
 pip install pytest
 
-### 4. Set up the database
+4. Set up the database
 bash
 Copy
 Edit
