@@ -23,10 +23,6 @@ Articles/
 ├── setup_db.py
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## Features
@@ -41,55 +37,36 @@ Edit
 
 ## Getting Started
 
-### 1. Clone the repository
-
+1. Clone the repository
 ```bash
 git clone <your-repo-url>
 cd Articles
 
 2. Create and activate a virtual environment (optional but recommended)
-bash
-Copy
-Edit
 python3 -m venv env
 source env/bin/activate
 
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Or if there's no requirements.txt, just install:
 
-bash
-Copy
-Edit
 pip install pytest
 
 4. Set up the database
-bash
-Copy
-Edit
 python3 setup_db.py
-You should see:
 
-pgsql
-Copy
-Edit
+You should see:
 ✅ Database schema created successfully.
+
+
 Running Tests
 Make sure the database is set up before running tests:
 
-bash
-Copy
-Edit
 pytest
 All tests should pass if your models are implemented correctly.
 
  Example Usage
-python
-Copy
-Edit
 from models.author import Author
 from models.magazine import Magazine
 from models.article import Article
@@ -109,19 +86,8 @@ SQLite3
 
 pytest (for testing)
 
-## Contributing
-Pull requests are welcome! If you'd like to contribute:
-
-Fork the repo
-
-Create a new branch (git checkout -b feature-xyz)
-
-Commit your changes (git commit -am 'Add feature xyz')
-
-Push and open a pull request
+## Contributor
+Alicia Natasha
 
 ## License
 This project is open source and available under the MIT License.
-
-## Acknowledgments
-Special thanks to Flatiron School Phase 3 curriculum for inspiration and project structure.
