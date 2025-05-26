@@ -33,12 +33,10 @@ Articles/
 - Full test coverage using `pytest`.
 - DRY and readable codebase using OOP best practices.
 
----
 
 ## Getting Started
 
 1. Clone the repository
-```bash
 git clone <your-repo-url>
 cd Articles
 
@@ -59,24 +57,23 @@ python3 setup_db.py
 You should see:
 ✅ Database schema created successfully.
 
-
-Running Tests
+## Running Tests
 Make sure the database is set up before running tests:
 
 pytest
 All tests should pass if your models are implemented correctly.
 
- Example Usage
+### Example Usage
 from models.author import Author
 from models.magazine import Magazine
 from models.article import Article
 
-# Create records
+### Create records
 author = Author.create("Maguire Smith")
 mag = Magazine.create("British Vogue", "Fashion")
 article = Article.create("Beauty", author.id, mag.id)
 
-# Query relationships
+### Query relationships
 print(author.articles())         # List of articles written by Maguire
 print(magazine.contributors())   # List of authors who wrote British Vogue
 ✅ Requirements
@@ -90,4 +87,4 @@ pytest (for testing)
 Alicia Natasha
 
 ## License
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
